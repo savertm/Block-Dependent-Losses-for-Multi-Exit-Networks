@@ -58,4 +58,4 @@ To cite our paper in your papers, please use the following bibtex entry.
 
 ## Acknowledgement
 
-Our code is built upon the implementations at [https://github.com/kalviny/MSDNet-PyTorch]
+Our code is built upon the implementations at https://github.com/kalviny/MSDNet-PyTorch
