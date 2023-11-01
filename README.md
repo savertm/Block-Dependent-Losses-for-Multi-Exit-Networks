@@ -28,6 +28,7 @@ pip install -r requirements.txt
 ### How to Run
 
 * All parameters required for the experiment are described in ```args.py```. Please see the python file for a detailed description of the parameters.
+* We provided all training options (for implementations of our work and baselines) in ```train.sh``` and ```train_imagenet.sh```
 
 ```bash
 
