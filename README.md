@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Experiments
 
-* Experiments can be conducted on 2 image classification datasets: CIFAR-100, ImageNet. 
+* Experiments can be conducted on two image classification datasets: CIFAR-100, ImageNet. 
 
 ### How to Run
 
