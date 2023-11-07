@@ -1,7 +1,7 @@
-# Improving Low-Latency Predictions in Multi-Exit Neural Networks via Block-Dependent Losses published in IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+# Improving Low-Latency Predictions in Multi-Exit Neural Networks via Block-Dependent Losses
 
 
-This repo contains the PyTorch implementation of our TNNLS paper, [Improving Low-Latency Predictions in Multi-Exit Neural Networks via Block-Dependent Losses](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10155768)
+This repo contains the PyTorch implementation of our paper titled [Improving Low-Latency Predictions in Multi-Exit Neural Networks via Block-Dependent Losses](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10155768), published in IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 
 **Abstract:** As the size of a model increases, making predictions using deep neural networks (DNNs) is becoming more computationally expensive. Multi-exit neural network is one promising solution that can flexibly make anytime predictions via early exits, depending on the current test-time budget which may vary over time in practice (e.g., selfdriving cars with dynamically changing speeds). However, the prediction performance at the earlier exits is generally much lower than the final exit, which becomes a critical issue in low-latency applications having a tight test-time budget. Compared to the previous works where each block is optimized to minimize the losses of all exits simultaneously, in this work, we propose a new method for training multi-exit neural networks by strategically imposing different objectives on individual blocks. The proposed idea based on grouping and overlapping strategies improves the prediction performance at the earlier exits while not degrading the performance of later ones, making our scheme to be more suitable for low-latency applications. Extensive experimental results on both image classification and semantic segmentation confirm the advantage of our approach. The proposed idea does not require any modifications in the model architecture and can be easily combined with existing strategies aiming to improve the performance of multi-exit neural networks.
 
@@ -28,6 +28,7 @@ pip install -r requirements.txt
 ### How to Run
 
 * All parameters required for the experiment are described in ```args.py```. Please see the python file for a detailed description of the parameters.
+* We provided all training options (for implementations of our work and baselines) in ```train.sh``` and ```train_imagenet.sh```.
 
 ```bash
 
