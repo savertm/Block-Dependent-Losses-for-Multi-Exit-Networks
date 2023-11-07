@@ -15,7 +15,7 @@ This code was tested on the following environments:
 * PyTorch 1.12.0
 * CUDA 11.6
 
-You can install all necessary packages from requirements.txt (or you can use environment.yml in the official code of MSDNet)
+You can install all necessary packages from requirements.txt (or you can use environment.yml in the official code of MSDNet).
 
 ```
 pip install -r requirements.txt 
